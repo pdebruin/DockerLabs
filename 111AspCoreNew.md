@@ -13,6 +13,7 @@ dotnet build
 dotnet publish
 
 dockerfile
+```
 FROM microsoft/aspnetcore:1.1.1-nanoserver
 ARG source
 WORKDIR /app
@@ -21,6 +22,7 @@ http://+:80
 EXPOSE 80
 COPY ${source:-obj/Docker/publish} .
 ENTRYPOINT ["dotnet", "WebApplication1.dll"]
+```
 
 docker build
 
