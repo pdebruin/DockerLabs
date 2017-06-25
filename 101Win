@@ -1,0 +1,14 @@
+# Docker basics with Windows 
+
+Use remote desktop connection to connect 
+
+Excercise 1
+Type the following command:
+'docker version'
+This is the primary command to run on any Docker environment. It tells you if Docker is installed on client and server, if it is running, what version it is running. 
+
+Note: In Docker for Windows on Windows 10 it will also tell if the client is running to host Windows containers and Linux containers, since you have those two options.
+
+A bit more detailed is the following command:
+'docker info'
+This command shows more details about the docker environment, including swarm, and extension points such as network, storage and plugins. 
