@@ -2,13 +2,13 @@
 
 Since Windows Server 2016 you can run containers in Windows and since Docker EE 17.06 your can manage Windows workers in the same way you already could manage Linux workers. Docker Enterprise Edition provides various capabilities. In this lab the focus is on getting to know Universal Control Plane, the management portal, and Docker Trusted Registry, the private registry.    
 
-UCP https://pieterd-ucp-kv2onaxprvy6e.westeurope.cloudapp.azure.com
+UCP https...
 
-DTR https://pieterd-dtr-kv2onaxprvy6e.westeurope.cloudapp.azure.com
+DTR https...
 
-admin / Geheim 0 t/m 4 plus uitroepteken
+uid / pwd
 
-Worker pip http://52.174.183.159
+Worker pip http...
 
 Use remote desktop connection to connect to your node.
 
